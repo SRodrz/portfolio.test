@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- 
+  Student Name: Sherley Rodriguez
+  File Name: template.html
+  Date: 3/31/2024
+-->
+<html lang="en">
+  <head>
+    <title>What I've done | Sherley Rodriguez</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Some of the projects I have worked on independently.">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--Mobile Nav-->
+    <nav class="mobile-nav">
+      <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+      <a class="nav-icon" onclick="hamburger()">
+        <div id="icon">&#9776;</div>
+      </a>
+    </nav>
+
+    <!-- Use the header area for the website name or logo which will be static-->
+    <header>
+      <div class="headback">
+        <figure class="foto"><img class="curves" src="images/sherleyrodriguez.jpg" alt="girl smiling at the camera" height="330" width="268"></figure>
+      </div>
+
+      <div class="title">
+        <h1>&#9729;Sherley Rodriguez Template</h1>
+      </div>
+
+      <div class="desc">
+        <figcaption>To create things we love.</figcaption>
+      </div>
+    </header>
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website-->
+    <nav class="tab-desk">
+      <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="projects.html">Projects</a></li>
+        <li><a class="link" href="about.html">About</a></li>
+        <li><a class="link" href="skills.html">Skills</a></li>
+        <li><a class="link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Use the main area to add the main content of the webpage-->
+    <main>
+      <section id="projects">
+        <article class="posts">
+
+          <figure> <!--Figure Element 1-->
+            <img src="images/character.png" alt="Character retexture of Alex a Character in Stardew Valley" height="182" width="182" class="center">
+
+            <figcaption class="shadow">Retexture of Alex from Stardew Valley.</figcaption>
+          </figure>
+
+          <figure> <!--Figure Element 2-->
+            <img src="images/meteor.png" alt="Sword retexture of the meteor from Stardew Valley" width="182" height="176" class="center">
+
+            <figcaption class="shadow">Sword retexture for Stardews Meteor.</figcaption>
+          </figure>
+
+          <figure> <!--Figure Element 3-->
+            <img src="images/trader.png" alt="retexture for the trader in Stardew Valley." width="289" height="182" class="center">
+
+            <figcaption class="shadow">Mystical retexture for the trader in Stardew Valley.</figcaption>
+          </figure>
+
+        </article>
+
+        <audio id="myAudio" autoplay controls loop muted>
+          <source src="media/Chopsticks.mp4" type="audio/mp3">
+          <source src="media/Chopsticks.ogg" type="audio/ogg">
+          <p>Your browser does not support the audio element.</p>
+        </audio>
+
+      </section>
+      <aside>
+        <p>These are a couple of Projects I have worked on concerning C#. They are mods for one of my favorite games called Stardew Valley.</p>
+      </aside>
+    </main>
+
+    <!-- Use the footer area to add webpage footer content-->
+    <footer>
+      <div class="copyright">
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a class="link" href="mailto:srodr0163@mail.ct.edu">srodr0163@mail.ct.edu</a></p>
+      </div>
+
+      <div class="social">
+        <a href="https://www.linkedin.com/"><img src="images/LI-In-Bug.png"></a>
+        <a href="https://www.github.com/"><img src="images/github-mark.png"></a>
+      </div>
+    </footer>
+    <script src="scripts/script.js" type="text/javascript"></script>
+  </body>
+</html>
