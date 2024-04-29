@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- 
+  Student Name: Sherley Rodriguez
+  File Name: contact.html
+  Date: 2/24/2024
+-->
+<html lang="en">
+  <head>
+    <title>Contact Me | Sherley Rodriguez</title>
+    <meta charset="utf-8">
+    <meta name="desccription" content="For any job inquiries and questions you may contact me here.">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--Mobile Nav-->
+    <nav class="mobile-nav">
+      <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+      <a class="nav-icon" onclick="hamburger()">
+        <div id="icon">&#9776;</div>
+      </a>
+    </nav>
+
+    <!-- Use the header area for the website name or logo which will be static-->
+    <header>
+      <div class="headback">
+        <figure class="foto"><img class="curves" src="images/sherleyrodriguez.jpg" alt="girl smiling at the camera" height="330" width="268"></figure>
+      </div>
+
+      <div class="title">
+        <h1>&#9729;Sherley Rodriguez Template</h1>
+      </div>
+
+      <div class="desc">
+        <figure>
+          <figcaption>To create things we love.</figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website-->
+    <nav class="tab-desk">
+      <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="projects.html">Projects</a></li>
+        <li><a class="link" href="about.html">About</a></li>
+        <li><a class="link" href="skills.html">Skills</a></li>
+        <li><a class="link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Use the main area to add the main content of the webpage-->
+    <main>
+      <div id="contact">
+        <h2>For any inquiries, you can contact me at:</h2> 
+        <p class="tel-link mobile"><a href="tel:8767775653"> (876) 777-5653</a></p>
+        <p class="tab-desk">(876) 777-5653</p>
+        <p>Email: <a href="mailto:srodr0163@mail.ct.edu" class="contact-email">srodr0163@mail.ct.edu</a></p>
+        <p>Address: 20 Church Street, New Haven, CT 06510</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.1941457998605!2d-72.93014688719283!3d41.30463990100249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d94ef0efab97%3A0xbb29f5c1160bd708!2sGateway%20Community%20College%20Foundation!5e0!3m2!1sen!2sus!4v1708910376928!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      </div>
+
+      <div id="form">
+        <h2 class="inq">Inquiries:</h2>
+        <form class="form-grid"><!--Start Form-->
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fName">First Name:</label>
+            <input type="text" name="fName" id="fName">
+            <label for="lName">Last Name:</label>
+            <input type="text" name="lName" id="lName">
+            <label for="bName">Name of Business:</label>
+            <input type="text" name="bName" id="bName">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone">
+          </fieldset>
+          <input type="submit" id="submit" value="Submit" class="btn">
+        </form>
+      </div>
+    </main>
+
+    <!-- Use the footer area to add webpage footer content-->
+    <footer>
+      <div class="copyright">
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a class="link" href="mailto:srodr0163@mail.ct.edu">srodr0163@mail.ct.edu</a></p>
+      </div>
+
+      <div class="social">
+        <a href="https://www.linkedin.com/"><img src="images/LI-In-Bug.png"></a>
+        <a href="https://www.github.com/"><img src="images/github-mark.png"></a>
+      </div>
+    </footer>
+    <script src="scripts/script.js" type="text/javascript"></script>
+  </body>
+</html>
